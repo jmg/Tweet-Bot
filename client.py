@@ -7,8 +7,8 @@ class TwitterClient(object):
 
     def __init__(self, settings):
 
-        auth = tweepy.OAuthHandler(settings["TWITTER_CONSUMER_KEY"], settings["TWITTER_CONSUMER_SECRET"])
-        auth.set_access_token(settings["ACCESS_KEY"], settings["ACCESS_SECRET"])
+        auth = tweepy.OAuthHandler(settings["CONSUMER_KEY"], settings["CONSUMER_SECRET"])
+        auth.set_access_token(settings["ACCESS_TOKEN"], settings["ACCESS_TOKEN_SECRET"])
         self.api = tweepy.API(auth)        
 
     def post(self, tweet):

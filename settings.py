@@ -6,9 +6,9 @@
 """
 
 auth = {
-    "TWITTER_CONSUMER_KEY" : "",
-    "TWITTER_CONSUMER_SECRET" : "",
+    "CONSUMER_KEY" : "",
+    "CONSUMER_SECRET" : "",
     
-    "ACCESS_KEY" : "",
-    "ACCESS_SECRET" : "",
+    "ACCESS_TOKEN" : "",
+    "ACCESS_TOKEN_SECRET" : "",
 }
