@@ -1,8 +1,8 @@
 """
     Authentication configuration
     
-    Go to https://dev.twitter.com/apps and create you application on twitter to get the 
-    authentication keys.
+    Go to https://dev.twitter.com/apps and create your own application on 
+    twitter to get the authentication keys.
 """
 
 auth = {

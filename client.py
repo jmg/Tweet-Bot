@@ -2,7 +2,7 @@ import tweepy
 
 class TwitterClient(object):
     """
-        A Tweeter client that implements the basic operations
+        A Twitter client that implements the basic operations
     """
 
     def __init__(self, settings):

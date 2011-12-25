@@ -11,7 +11,7 @@ class TweetBot(object):
     """
         A tweet-bot capable to tweet once or forever.
         If you choose the forever mode you need to specify the
-        delay time between tweets.
+        delay between tweets.
     """
     
     client = TwitterClient(auth)
@@ -57,7 +57,7 @@ def main():
     bot = TweetBot()
     
     parser = OptionParser()
-    parser.add_option("-t", "--time", help="Specify time between tweets (In minutes)")
+    parser.add_option("-t", "--time", help="Specify the delay between tweets (In minutes)")
 
     (options, args) = parser.parse_args()
    
